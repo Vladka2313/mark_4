@@ -1,0 +1,628 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 січ 2015, 16:18:55
+    Author     : Vlad
+*/
+@font-face {
+    font-family: 'Gotham';
+    src: url('../fonts/HFJ_Gotham_Complete_(Win)/OpenType/Gotham-Medium.eot');
+    src: local('☺'), url('../fonts/HFJ_Gotham_Complete_(Win)/OpenType/Gotham-Medium.woff') format('woff'), url('../fonts/HFJ_Gotham_Complete_(Win)/OpenType/Gotham-Medium.ttf') format('truetype'), url('../fonts/HFJ_Gotham_Complete_(Win)/OpenType/Gotham-Medium.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*@font-face {
+    font-family: 'Bickham Script Pro';
+    src: url('../fonts/BickhamScriptPro-Regular.eot');
+    src: local('☺'), url('../fonts/BickhamScriptPro-Regular.woff') format('woff'), url('../fonts/BickhamScriptPro-Regular.ttf') format('truetype'), url('../fonts/BickhamScriptPro-Regular.svg') format('svg');
+}*/
+@font-face {
+    font-family: 'Times';
+    //src: url('../fonts/BickhamScriptPro-Regular.eot');
+    src: local('☺'), url('../fonts/Times_Roman.woff') format('woff'), url('../fonts/Times_Roman.ttf') format('truetype'), url('../fonts/Times_Roman.svg') format('svg');
+}
+
+body
+{
+    text-align: center;
+    background-image: url("../image/Background.png");
+    margin: 0px;
+    //height:100%;
+    
+}
+.leftbody
+{
+    text-align: left;
+    height: 100%;
+}
+.column
+{
+    width: 33%;
+    float: left;
+}
+.layer13
+{
+    width: 100%;
+}
+.barcopy
+{
+    width: 10px;
+    height: 2px;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+.layer6
+{
+    width: 100%;
+    margin-top: 13px;
+}
+.layer7
+{
+    position: relative;
+    width: 100%;
+}
+div 
+{
+    display: inline-block;
+}
+.content
+{
+    width: 1295px;
+    //height:100%;
+    min-height: 100%;
+}
+.left
+{
+    text-align: left;
+}
+h1
+{
+    font-family: Gotham;
+    color: #000000;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 500;
+    line-height: 23px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    /*transform: scale(2.103,2.103);
+    width: 291px;
+    height: 35px;*/
+    margin-left: 45px;
+    margin-top: 27px;
+    letter-spacing: 2.1px;
+}
+h2
+{
+    font-family: Times;
+    color: #7c6848;
+    font-size: 12px; /* Приближение из-за подстановки шрифтов */
+    line-height: 19px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    /*width: 175px;
+    height: 30px;*/
+    margin-left: 45px;
+    margin-top: 15px;
+    letter-spacing: 1.3px;
+}
+.obj
+{
+
+    margin-top: 15px;   
+    margin-left: -5px;
+}
+.objfirst
+{
+    margin-left: 49px; 
+}
+.objfirst2
+{
+    margin-left: 84px; 
+}
+.an
+{
+    //margin-left: 170px;
+    margin-top: 48px; 
+}
+.an2
+{
+    //margin-left: 170px;
+    margin-top: 48px; 
+    //text-align: center;
+    margin-left: 74px;
+}
+.layer12
+{
+    width: 100%;
+    margin-top: -53px;
+}
+h4.class1
+{
+
+    font-family: Gotham;
+    color: #000000;
+    font-size:  12px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 16px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    margin-top: 16px; 
+    margin-bottom: -3px;
+    letter-spacing: 3.2px;
+}
+h4.class2
+{
+    /* Встроенный стиль */
+    font-family: Times;
+    color: #978d7c;
+    font-size:  10px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    //line-height: 16px; /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    //margin-top: 5px; 
+    letter-spacing: 2.9px;
+}
+.barcopy2
+{
+    width: 10px;
+    height: 2px;
+    //margin-left: 28px;
+    margin-top: 14px;
+    margin-bottom: 6px;
+}
+.barcopy2_2
+{
+    width: 10px;
+    height: 2px;
+    margin-left: 112px;
+    margin-top: 14px;
+    margin-bottom: 6px;
+}
+li a
+{  
+    text-decoration: none;
+    font-family: Times;
+    color: #7c6848;
+    font-size: 13px; /* Приближение из-за подстановки шрифтов */
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    margin: 0px;
+    //margin-left: 170px;
+    //margin-top: 5px;
+}
+li a:hover
+{
+    /* Встроенный стиль */
+    //font-family: Times;
+    color: #e38c39;
+    //font-size: 12px; /* Приближение из-за подстановки шрифтов */
+    //line-height: 22px; /* Приближение из-за подстановки шрифтов */
+    //text-align: center;
+}
+li
+{
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 12px;
+}
+ul
+{
+    padding-left: 0px;
+    letter-spacing: 0.7px;
+}
+
+.servicescolumnleft
+{
+    width: 231px;
+    height: 100%;
+    float: left;
+}
+/*.line
+{
+    width: 1px;
+    height: 900px;
+   // margin-left: -3000px;
+}*/
+.servicescolumncenter
+{
+    text-align: left;
+    border: 0px;
+    border-left: 1px;
+    border-style: solid;
+    border-color: #978d7c;
+    width: 623px;
+    float: left;
+    //padding-left: 227px;
+}
+.servicescolumnright
+{
+    width: 425px;
+    float: left;
+}
+.layer17
+{
+    position: relative;
+    width: 100%;
+}
+.layer15
+{
+    //position: relative;
+    width: 100%;
+    margin-top: -93px;
+}
+.barcopy3
+{
+
+    width: 20px;
+    height: 2px;
+    margin-left: 64px;
+    margin-top: 49px;
+
+}
+.text1
+{
+    font-family: Gotham;
+    color: #000000;
+    font-size: 16px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 500;
+    line-height: 29px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-left: 64px;
+    margin-top: 43px;
+    letter-spacing: 2.4px;
+}
+.text2
+{
+    font-family: Gotham;
+    color: #000000;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-left: 64px;
+    margin-top: 39px;
+    margin-bottom: 43px;
+    letter-spacing: 0.16px;
+}
+.text3 
+{
+    font-family: Gotham;
+    color: #000000;
+    font-size: 12px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 14px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-left: 64px;
+    margin-top: 21px;
+    letter-spacing: 1.3px
+}
+.text13 
+{
+    font-family: Gotham;
+    color: #000000;
+    font-size: 12px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 14px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-left: 64px;
+    margin-top: 22px;
+    letter-spacing:  1.3px;
+}
+.text14 
+{
+    font-family: Gotham;
+    color: #000000;
+    font-size: 12px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 14px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-left: 64px;
+    margin-top: 23px;
+    letter-spacing: 1.3px;
+}
+.text15 
+{
+    font-family: Gotham;
+    color: #000000;
+    font-size: 12px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 14px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-left: 64px;
+    margin-top: 22px;
+    letter-spacing: 1.3px;
+}
+.text16 
+{
+    font-family: Gotham;
+    color: #000000;
+    font-size: 12px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 14px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-left: 64px;
+    margin-top: 19px;
+    letter-spacing: 1.3px;
+}
+.text4
+{
+    /* Встроенный стиль */
+    font-family: Times;
+    color: #4b4b4b;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    line-height: 21px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-left: 65px;
+    margin-top: -7px;
+    letter-spacing: 0.3px;
+}
+
+.contactcolumnleft
+{
+    width: 231px;
+    height: 100%;
+    float: left;
+}
+.all
+{
+    text-align: left;
+    border: 0px;
+    border-left: 1px;
+    border-style: solid;
+    border-color: #978d7c;
+    width: 1048px;
+}
+.contactcolumncenter
+{
+    width: 621px;
+    float: left;
+    //padding-left: 227px;
+}
+.contactcolumnright
+{
+    width: 427px;
+    float: left;
+    // margin-left: 211px;
+}
+.layer11
+{
+    position: relative;
+    width: 427px;
+    height: 481px;
+    //margin-left: 621px;
+    //margin-top: -1000px;
+}
+.layer18
+{
+    //position: relative;
+    width: 100%;
+    margin-top: -57px;
+    // margin-left: 621px;
+}
+.text5
+{
+    font-family: Gotham;
+    color: #000000;
+    font-size: 16px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 500;
+    line-height: 29px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-left: 64px;
+    margin-top: 98px;
+    margin-bottom: 44px;
+    letter-spacing: 1px;
+}
+.text6
+{
+    font-family: Gotham;
+    color: #000000;
+    font-size: 12px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 14px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-bottom: -14px;
+    letter-spacing: 2px;
+    margin-left: 64px;
+}
+.text7
+{
+    font-family: Times;
+    color: #7c6848;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    line-height: 21px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-left: 64px;
+}
+.text8
+{
+    font-family: Times;
+    color: #4b4b4b;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    line-height: 21px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-left: 64px;
+}
+.text9
+{
+    font-family: Gotham;
+    color: #000000;
+    font-size: 12px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 14px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-bottom: -14px;
+    letter-spacing: 2px;
+    margin-left: 64px;
+    margin-top: 23px;
+}
+.text10
+{
+    font-family: Gotham;
+    color: #000000;
+    font-size: 12px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 14px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-bottom: -14px;
+    letter-spacing: 2px;
+    margin-left: 64px;
+    margin-top: 21px;
+}
+.text11
+{
+    font-family: Gotham;
+    color: #000000;
+    font-size: 12px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 14px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-bottom: -14px;
+    letter-spacing: 2px;
+    margin-left: 64px;
+    margin-top: 18px;
+}.text12
+{
+    font-family: Gotham;
+    color: #000000;
+    font-size: 12px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 14px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-bottom: -14px;
+    letter-spacing: 2px;
+    margin-left: 64px;
+    margin-top: 19px;
+}
+.teamcolumncenter
+{
+    width: 621px;
+    float: left;
+    //padding-left: 227px;
+}
+.teamcolumnleft
+{
+    width: 231px;
+    height: 100%;
+    float: left;
+}
+.teamcolumnright
+{
+    width: 427px;
+    float: left;
+    // margin-left: 211px;
+}
+.layer19
+{
+    position: relative;
+    width: 427px;
+    height: 481px;
+    //margin-left: 621px;
+    //margin-top: -1000px;
+}
+.layer14
+{
+    //position: relative;
+    width: 100%;
+    margin-top: -25px;
+    // margin-left: 621px;
+}
+.text17
+{
+    font-family: Gotham;
+    color: #000000;
+    font-size: 16px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 500;
+    line-height: 29px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-left: 64px;
+    margin-top: 43px;
+    letter-spacing: 2px;
+}
+.text18
+{
+    font-family: Gotham;
+    color: #000000;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    line-height: 24px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    margin-left: 64px;
+    margin-top: 39px;
+    margin-bottom: 43px;
+}
+.background
+{
+    background-color: #ffffff;
+    //background-image: url("../image/Rectangle.png");
+    width: 480px;
+    //height: 433px;
+    margin-left: 64px;
+    margin-top: 60px;
+}
+.layer23
+{
+    
+    width: 117px;
+    height: 117px;
+    margin-left: 20px;
+    margin-top: 21px;
+}
+.image
+{
+    display: block;
+    width: 137px;
+    float: left;
+    
+    //height: 433px;
+    
+}
+.turn
+{
+    width: 316px;
+    //height: 387px;
+    //text-align: justify;
+    //margin-top: -125px;
+}
+.text19
+{
+    font-family: Gotham;
+    color: #000000;
+    font-size: 12px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    line-height: 14px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    //margin-left: 100px;
+    //margin-top: -117px;
+    margin-bottom: 2px;
+}
+.text20
+{
+    font-family: Times;
+    color:  #4b4b4b;
+    font-size: 14px; /* Приближение из-за подстановки шрифтов */
+    line-height: 21px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    //margin-left: 164px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.text21
+{
+    font-family: Times;
+    color: #7c6848;
+    font-size: 13px; /* Приближение из-за подстановки шрифтов */
+    line-height: 21px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    //margin-left: 164px;
+    margin-top: 2px;
+    display: block;
+}
+.arrow
+{
+
+    width: 7px;
+    height: 4px;
+    margin-left: 2px;
+    //margin-top: -4px;
+    position: relative;
+    top: -2px;
+}
